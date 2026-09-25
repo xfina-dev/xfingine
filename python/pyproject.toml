@@ -22,8 +22,8 @@ description = "Pure computation engines for personal finance planning - inflatio
 readme = "README.md"
 
 [project.urls]
-Homepage = "https://github.com/sakthipriyan/xfingine"
-Repository = "https://github.com/sakthipriyan/xfingine"
+Homepage = "https://github.com/xfina-dev/xfingine"
+Repository = "https://github.com/xfina-dev/xfingine"
 
 [tool.maturin]
 features = ["pyo3/extension-module"]

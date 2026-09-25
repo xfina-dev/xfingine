@@ -1,6 +1,6 @@
 # xfingine
 
-WebAssembly bindings for [**Xfingine**](https://github.com/sakthipriyan/xfingine) —
+WebAssembly bindings for [**Xfingine**](https://github.com/xfina-dev/xfingine) —
 pure computation engines for personal finance planning.
 
 Data in, arithmetic, data out. No UI, no network, no clock. The engines run
@@ -59,7 +59,7 @@ try {
 - Omit `start` and the engine reads no calendar at all — `schedule` rows carry
   no dates and `years` is empty.
 
-Full documentation: [github.com/sakthipriyan/xfingine](https://github.com/sakthipriyan/xfingine)
+Full documentation: [github.com/xfina-dev/xfingine](https://github.com/xfina-dev/xfingine)
 
 ## License
 

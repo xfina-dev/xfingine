@@ -1,4 +1,4 @@
-# [Xfingine](https://github.com/sakthipriyan/xfingine)
+# [Xfingine](https://github.com/xfina-dev/xfingine)
 
 [![Crates.io](https://img.shields.io/crates/v/xfingine.svg?color=orange)](https://crates.io/crates/xfingine)
 [![PyPI](https://img.shields.io/pypi/v/xfingine.svg?color=blue)](https://pypi.org/project/xfingine/)
@@ -202,7 +202,7 @@ verified against it, not merely tested in isolation:
   (133,686 rows). The output is **bit-identical**, down to the rounding, with a
   single deliberate exception noted in [CHANGELOG.md](CHANGELOG.md).
 - **Committed snapshots** in `tests/data/` lock the output in. Unlike
-  [Xfina](https://github.com/sakthipriyan/xfina), whose fixtures are real
+  [Xfina](https://github.com/xfina-dev/xfina), whose fixtures are real
   statements containing PII and therefore live outside the repository, these are
   pure numbers — so they are committed and CI checks them directly.
 - **Invariant tests** assert the properties that must hold whatever the numbers

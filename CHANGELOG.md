@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- The repository moved to the `xfina-dev` GitHub organisation. The crate, Python and npm
+  metadata, and the docs, now link there.
+
 ## [0.1.0] - 2026-08-29
 
 ### Added
@@ -44,7 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   and CPython version the runner happened to have, so only that exact
   combination could `pip install xfingine` without a Rust toolchain — 0.0.1
   shipped nothing but a macOS arm64 CPython 3.9 wheel. Fixed on three fronts,
-  mirroring [sakthipriyan/xfina#58](https://github.com/sakthipriyan/xfina/issues/58):
+  mirroring [xfina-dev/xfina#58](https://github.com/xfina-dev/xfina/issues/58):
   - The extension now builds against the **stable ABI** (`pyo3/abi3-py38`), so
     one wheel per OS/arch covers CPython 3.8+ instead of needing one per
     version — turning a ~25-build matrix into 5.

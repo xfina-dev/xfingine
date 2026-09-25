@@ -1,6 +1,6 @@
 # xfingine
 
-Python bindings for [**Xfingine**](https://github.com/sakthipriyan/xfingine) —
+Python bindings for [**Xfingine**](https://github.com/xfina-dev/xfingine) —
 pure computation engines for personal finance planning.
 
 Data in, arithmetic, data out. No UI, no network, no clock — the same input
@@ -63,7 +63,7 @@ xfingine.compute_emi({"mode": "tenure", "loanAmount": 5_000_000,
 - Omit `start` and the engine reads no calendar — schedule rows carry no dates
   and `years` is empty.
 
-Full documentation: [github.com/sakthipriyan/xfingine](https://github.com/sakthipriyan/xfingine)
+Full documentation: [github.com/xfina-dev/xfingine](https://github.com/xfina-dev/xfingine)
 
 ## License
 

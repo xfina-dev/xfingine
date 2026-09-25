@@ -10,7 +10,7 @@ data. There is **no UI, no CLI, no file I/O, no network, and no clock** in the
 core crate, and none should be added. If a change requires reaching outside the
 process, it belongs in the caller, not here.
 
-This is the sibling project to [Xfina](https://github.com/sakthipriyan/xfina),
+This is the sibling project to [Xfina](https://github.com/xfina-dev/xfina),
 which parses financial statements. Xfina has a web app; Xfingine deliberately
 does not. Consumers bring their own UI — today that is the tools page on
 sakthipriyan.com, which loads the WASM bundle.
